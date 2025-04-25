@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Layouts.StackLayoutPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="StackLayoutPage">
+    <StackLayout Orientation="Vertical" Spacing="10">
+        <Label Text="Stack Layout Vertical" />
+        <Button
+            HorizontalOptions="Start"
+            Text="Olá Mundo!"
+            VerticalOptions="Start" />
+        <StackLayout
+            Padding="10"
+            Orientation="Horizontal"
+            Spacing="10">
+            <Label Text="Stack Layout Horizontal" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="Start"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="End"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="End"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+        </StackLayout>
+        <VerticalStackLayout>
+            <Label Text="VerticalStackLayout" />
+            <Button
+                HorizontalOptions="Start"
+                Text="Olá Mundo!"
+                VerticalOptions="StartAndExpand" />
+        </VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="HorizontalStackLayout" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="StartAndExpand"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="End"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+            <Button
+                HeightRequest="50"
+                HorizontalOptions="End"
+                Text="Olá Mundo!"
+                WidthRequest="100" />
+        </HorizontalStackLayout>
+    </StackLayout>
+</ContentPage>

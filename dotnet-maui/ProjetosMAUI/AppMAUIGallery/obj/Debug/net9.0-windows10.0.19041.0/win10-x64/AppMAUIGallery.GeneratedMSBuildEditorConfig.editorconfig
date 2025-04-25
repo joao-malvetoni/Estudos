@@ -1,0 +1,269 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppMAUIGallery
+build_property.ProjectDir = D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/AppFlyout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.AppFlyout.xaml
+build_metadata.AdditionalFiles.TargetPath = AppFlyout.xaml
+build_metadata.AdditionalFiles.RelativePath = AppFlyout.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/EntryCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells.EntryCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\EntryCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\EntryCellPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/ImageCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells.ImageCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\ImageCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\ImageCellPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/SwitchCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells.SwitchCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\SwitchCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\SwitchCellPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/TextCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells.TextCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\TextCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\TextCellPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/ViewCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells.ViewCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\ViewCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\ViewCellPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/CheckBoxPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.CheckBoxPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\CheckBoxPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\CheckBoxPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/DatePickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.DatePickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\DatePickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\DatePickerPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/EditorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.EditorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\EditorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\EditorPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/EntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.EntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\EntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\EntryPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/PickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.PickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\PickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\PickerPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/RadioButtonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.RadioButtonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\RadioButtonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\RadioButtonPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/SearchBarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.SearchBarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SearchBarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SearchBarPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/SliderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.SliderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SliderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SliderPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/StepperPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.StepperPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\StepperPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\StepperPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/SwitchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.SwitchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SwitchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SwitchPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/TimePickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.TimePickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\TimePickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\TimePickerPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Main/BoxViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Main.BoxViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Main\BoxViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Main\BoxViewPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Main/ButtonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Main.ButtonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Main\ButtonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Main\ButtonPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Main/ImageButtonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Main.ImageButtonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Main\ImageButtonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Main\ImageButtonPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Main/ImagePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Main.ImagePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Main\ImagePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Main\ImagePage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Main/LabelPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Main.LabelPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Main\LabelPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Main\LabelPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Visuals/BorderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Visuals.BorderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\BorderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\BorderPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Visuals/FramePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Visuals.FramePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\FramePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\FramePage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Visuals/ShadowPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Visuals.ShadowPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\ShadowPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\ShadowPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Layouts/AbsoluteLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Layouts.AbsoluteLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Layouts\AbsoluteLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Layouts\AbsoluteLayoutPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Layouts/FlexLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Layouts.FlexLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Layouts\FlexLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Layouts\FlexLayoutPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Layouts/GridLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Layouts.GridLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Layouts\GridLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Layouts\GridLayoutPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Layouts/StackLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Layouts.StackLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Layouts\StackLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Layouts\StackLayoutPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/BindableLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.BindableLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\BindableLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\BindableLayoutPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/CarouselViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.CarouselViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\CarouselViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\CarouselViewPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/CollectionViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.CollectionViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\CollectionViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\CollectionViewPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/DataTemplateSelectorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.DataTemplateSelectorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\DataTemplateSelectorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\DataTemplateSelectorPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/ListViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.ListViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\ListViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\ListViewPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/PickerListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.PickerListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\PickerListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\PickerListPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Lists/TableViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Lists.TableViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\TableViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\TableViewPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[D:/Estudos/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Menu.xaml

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Cells.ImageCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ImageCellPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <TableView>
+                <TableSection Title="Lista de colaboradores">
+                    <ImageCell
+                        Detail="Analista de sistemas"
+                        DetailColor="Gray"
+                        ImageSource="https://cdn-icons-png.flaticon.com/128/1503/1503170.png"
+                        Text="João Rodrigues"
+                        TextColor="Blue" />
+                </TableSection>
+            </TableView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

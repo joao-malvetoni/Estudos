@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Components.Main.ImagePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ImagePage">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                x:Name="Imagem01"
+                Aspect="AspectFit"
+                Source="https://gru.ifsp.edu.br/images/phocagallery/galeria2/image03_grd.png"
+                WidthRequest="300" />
+            <Image
+                Aspect="AspectFit"
+                HeightRequest="300"
+                Source="pinguim.png" />
+            <Image
+                IsAnimationPlaying="True"
+                IsOpaque="True"
+                Source="dotnet_bot.png" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

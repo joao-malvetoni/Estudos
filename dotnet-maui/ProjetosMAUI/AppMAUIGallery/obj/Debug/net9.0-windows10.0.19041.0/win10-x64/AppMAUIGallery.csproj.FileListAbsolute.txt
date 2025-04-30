@@ -475,3 +475,14 @@ D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\poweron.scale-100.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\poweroff.scale-100.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\poweron.scale-100.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\clock.scale-100.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\clock.scale-125.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\clock.scale-150.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\clock.scale-200.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\clock.scale-400.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-100.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-125.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-150.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-200.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\clock.scale-400.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\AppMAUIGallery.sourcelink.json

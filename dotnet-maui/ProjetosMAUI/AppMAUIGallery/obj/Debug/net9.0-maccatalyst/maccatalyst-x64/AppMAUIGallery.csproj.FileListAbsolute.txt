@@ -298,3 +298,7 @@ D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\poweron.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\poweroff.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\pinguim.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\clock@3x.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\clock@2x.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\clock.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\AppMAUIGallery.sourcelink.json

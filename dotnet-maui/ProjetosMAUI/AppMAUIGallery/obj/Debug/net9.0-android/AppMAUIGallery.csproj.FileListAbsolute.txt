@@ -943,3 +943,4 @@ D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-android\resi
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\clock.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-android\resizetizer\r\drawable-xxhdpi\clock.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-android\resizetizer\r\drawable-xxxhdpi\clock.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-android\AppMAUIGallery.sourcelink.json

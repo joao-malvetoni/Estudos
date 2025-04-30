@@ -1,54 +1,24 @@
 using AppMAUIGallery.Repositories;
+using Microsoft.Maui.Graphics.Text;
 
 namespace AppMAUIGallery.Views;
 
 public partial class Menu : ContentPage
 {
+	private IGroupComponentRepository _repository;
 	public Menu()
 	{
 		InitializeComponent();
 
-		var categories = new CategoryRepository().GetCategories();
+		// TODO - DI - Dependency Injection
+		_repository = new GroupComponentRepository();
 
-		foreach (var category in categories)
-		{
-			var lblCategory = new Label();
-			lblCategory.Text = category.Name;
-			lblCategory.FontFamily = "OpenSansSemibold";
-			lblCategory.TextColor = new Color(0, 0, 0);
-			
-			MenuContainer.Children.Add(lblCategory);
-
-			foreach (var component in category.Components)
-			{
-				var tap = new TapGestureRecognizer();
-				tap.CommandParameter = component.Page;
-				tap.Tapped += OnTapComponent;
-
-				var lblComponentTitle = new Label();
-				lblComponentTitle.Text = component.Title;
-				lblComponentTitle.FontFamily = "OpenSansSemibold";
-				lblComponentTitle.Margin = new Thickness(20, 10, 0, 0);
-				lblComponentTitle.TextColor = new Color(0, 0, 0);
-				lblComponentTitle.GestureRecognizers.Add(tap);
-
-				var lblComponentDescription = new Label();
-				lblComponentDescription.Text = component.Description;
-				lblComponentDescription.Margin = new Thickness(20, 0, 0, 0);
-				lblComponentDescription.TextColor = new Color(0, 0, 0);
-				lblComponentDescription.GestureRecognizers.Add(tap);
-
-				MenuContainer.Children.Add(lblComponentTitle);
-				MenuContainer.Children.Add(lblComponentDescription);
-			}
-		}
+		MenuCollection.ItemsSource = _repository.GetGroupComponents();
 	}
 
 	private void OnTapComponent(object sender, TappedEventArgs e)
 	{
-		var label = (Label)sender;
-		var tap = (TapGestureRecognizer)label.GestureRecognizers[0];
-		var page = (Type)tap.CommandParameter;
+		var page = (Type)e.Parameter;
 
 		((FlyoutPage)App.Current.Windows[0].Page).Detail = new NavigationPage((Page)Activator.CreateInstance(page));
 		((FlyoutPage)App.Current.Windows[0].Page).IsPresented = false;

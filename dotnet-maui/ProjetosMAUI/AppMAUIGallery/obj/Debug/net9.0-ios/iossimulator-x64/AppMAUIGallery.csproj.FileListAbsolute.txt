@@ -309,3 +309,7 @@ D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimul
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\poweron.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\poweroff.png
 D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\pinguim.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\clock@3x.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\clock@2x.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\clock.png
+D:\Estudos\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-ios\iossimulator-x64\AppMAUIGallery.sourcelink.json

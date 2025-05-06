@@ -1,17 +1,163 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj": {}
+    "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj": {}
   },
   "projects": {
-    "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj": {
+    "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj",
-        "projectName": "AppTask",
-        "projectPath": "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj",
+        "projectUniqueName": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj",
+        "projectName": "AppTask.Database",
+        "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj",
         "packagesPath": "C:\\Users\\joao.malvetoni\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppTask\\obj\\",
+        "outputPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joao.malvetoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj",
+        "projectName": "AppTask.Models",
+        "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj",
+        "packagesPath": "C:\\Users\\joao.malvetoni\\.nuget\\packages\\",
+        "outputPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joao.malvetoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj",
+        "projectName": "AppTask",
+        "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\AppTask.csproj",
+        "packagesPath": "C:\\Users\\joao.malvetoni\\.nuget\\packages\\",
+        "outputPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -36,19 +182,47 @@
         "frameworks": {
           "net9.0-android35.0": {
             "targetAlias": "net9.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj"
+              },
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj"
+              }
+            }
           },
           "net9.0-ios18.2": {
             "targetAlias": "net9.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj"
+              },
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj"
+              }
+            }
           },
           "net9.0-maccatalyst18.2": {
             "targetAlias": "net9.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj"
+              },
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj"
+              }
+            }
           },
           "net9.0-windows10.0.19041": {
             "targetAlias": "net9.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTask.Database.csproj"
+              },
+              "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj": {
+                "projectPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\AppTask.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,11 +243,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.14, )"
+              "version": "[9.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -108,11 +282,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.14, )"
+              "version": "[9.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -147,11 +321,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.14, )"
+              "version": "[9.0.60, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -187,11 +361,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.14, )"
+              "version": "[9.0.60, )"
             }
           },
           "imports": [

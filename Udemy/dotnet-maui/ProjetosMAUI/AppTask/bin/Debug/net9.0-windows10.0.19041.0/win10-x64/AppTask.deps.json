@@ -9,9 +9,11 @@
     ".NETCoreApp,Version=v9.0/win10-x64": {
       "AppTask/1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Debug": "9.0.0",
-          "Microsoft.Maui.Controls": "9.0.14",
-          "Microsoft.Web.WebView2.Core.Projection": "1.0.2792.45",
+          "AppTask.Database": "1.0.0",
+          "AppTask.Models": "1.0.0",
+          "Microsoft.Extensions.Logging.Debug": "9.0.4",
+          "Microsoft.Maui.Controls": "9.0.60",
+          "Microsoft.Web.WebView2.Core.Projection": "1.0.2903.40",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
         "runtime": {
@@ -30,10 +32,114 @@
           }
         }
       },
+      "Microsoft.Data.Sqlite.Core/9.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.10"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.425.16310"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/9.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.4",
+          "Microsoft.Extensions.Caching.Memory": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.425.16310"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/9.0.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.425.16310"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.4": {},
+      "Microsoft.EntityFrameworkCore.Relational/9.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.Extensions.Caching.Memory": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.425.16310"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite/9.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "9.0.4",
+          "Microsoft.Extensions.Caching.Memory": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyModel": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
+          "SQLitePCLRaw.core": "2.1.10",
+          "System.Text.Json": "9.0.4"
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/9.0.4": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
+          "Microsoft.Extensions.Caching.Memory": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyModel": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SQLitePCLRaw.core": "2.1.10",
+          "System.Text.Json": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
+            "assemblyVersion": "9.0.4.0",
+            "fileVersion": "9.0.425.16310"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/9.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Primitives": "9.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Configuration.dll": {
@@ -42,96 +148,104 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.0"
+          "Microsoft.Extensions.Primitives": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/9.0.0": {
+      "Microsoft.Extensions.DependencyInjection/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.Logging/9.0.0": {
+      "Microsoft.Extensions.DependencyModel/9.0.4": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "9.0.0.4",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Options": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Logging.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/9.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.Options/9.0.0": {
+      "Microsoft.Extensions.Options/9.0.4": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Primitives": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Options.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.4": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.425.16305"
           }
         }
       },
       "Microsoft.Graphics.Win2D/1.2.0": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.6.240923002"
+          "Microsoft.WindowsAppSDK": "1.6.250228001"
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041.0/Microsoft.Graphics.Canvas.Interop.dll": {
@@ -153,32 +267,32 @@
           }
         }
       },
-      "Microsoft.Maui.Controls/9.0.14": {
+      "Microsoft.Maui.Controls/9.0.60": {
         "dependencies": {
-          "Microsoft.Maui.Controls.Build.Tasks": "9.0.14",
-          "Microsoft.Maui.Controls.Core": "9.0.14",
-          "Microsoft.Maui.Controls.Xaml": "9.0.14",
-          "Microsoft.Maui.Resizetizer": "9.0.14"
+          "Microsoft.Maui.Controls.Build.Tasks": "9.0.60",
+          "Microsoft.Maui.Controls.Core": "9.0.60",
+          "Microsoft.Maui.Controls.Xaml": "9.0.60",
+          "Microsoft.Maui.Resizetizer": "9.0.60"
         }
       },
-      "Microsoft.Maui.Controls.Build.Tasks/9.0.14": {
+      "Microsoft.Maui.Controls.Build.Tasks/9.0.60": {
         "dependencies": {
-          "Microsoft.Maui.Controls.Core": "9.0.14",
-          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+          "Microsoft.Maui.Controls.Core": "9.0.60",
+          "Microsoft.Maui.Controls.Xaml": "9.0.60"
         }
       },
-      "Microsoft.Maui.Controls.Core/9.0.14": {
+      "Microsoft.Maui.Controls.Core/9.0.60": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Microsoft.Maui.Core": "9.0.14"
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Maui.Core": "9.0.60"
         },
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         },
         "resources": {
@@ -286,52 +400,52 @@
           }
         }
       },
-      "Microsoft.Maui.Controls.Xaml/9.0.14": {
+      "Microsoft.Maui.Controls.Xaml/9.0.60": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.0",
-          "Microsoft.Maui.Controls.Core": "9.0.14",
-          "Microsoft.Maui.Core": "9.0.14"
+          "Microsoft.Maui.Controls.Core": "9.0.60",
+          "Microsoft.Maui.Core": "9.0.60"
         },
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.Xaml.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         }
       },
-      "Microsoft.Maui.Core/9.0.14": {
+      "Microsoft.Maui.Core/9.0.60": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
           "Microsoft.Graphics.Win2D": "1.2.0",
-          "Microsoft.Maui.Essentials": "9.0.14",
-          "Microsoft.Maui.Graphics": "9.0.14",
-          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "9.0.14",
-          "Microsoft.Web.WebView2": "1.0.2792.45",
+          "Microsoft.Maui.Essentials": "9.0.60",
+          "Microsoft.Maui.Graphics": "9.0.60",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "9.0.60",
+          "Microsoft.Web.WebView2": "1.0.2903.40",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
-          "Microsoft.WindowsAppSDK": "1.6.240923002"
+          "Microsoft.WindowsAppSDK": "1.6.250228001"
         },
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         }
       },
-      "Microsoft.Maui.Essentials/9.0.14": {
+      "Microsoft.Maui.Essentials/9.0.60": {
         "dependencies": {
-          "Microsoft.Maui.Graphics": "9.0.14"
+          "Microsoft.Maui.Graphics": "9.0.60"
         },
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         }
       },
-      "Microsoft.Maui.Graphics/9.0.14": {
+      "Microsoft.Maui.Graphics/9.0.60": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1"
@@ -339,44 +453,44 @@
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/9.0.14": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/9.0.60": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
-          "Microsoft.Maui.Graphics": "9.0.14"
+          "Microsoft.Maui.Graphics": "9.0.60"
         },
         "runtime": {
           "lib/net9.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "9.0.1424.60909"
+            "fileVersion": "9.0.6025.20913"
           }
         }
       },
-      "Microsoft.Maui.Resizetizer/9.0.14": {},
-      "Microsoft.Web.WebView2/1.0.2792.45": {
+      "Microsoft.Maui.Resizetizer/9.0.60": {},
+      "Microsoft.Web.WebView2/1.0.2903.40": {
         "native": {
           "runtimes/win-x64/native/WebView2Loader.dll": {
-            "fileVersion": "1.0.2792.45"
+            "fileVersion": "1.0.2903.40"
           }
         }
       },
       "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {},
-      "Microsoft.WindowsAppSDK/1.6.240923002": {
+      "Microsoft.WindowsAppSDK/1.6.250228001": {
         "dependencies": {
-          "Microsoft.Web.WebView2": "1.0.2792.45",
+          "Microsoft.Web.WebView2": "1.0.2903.40",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.26107.1011"
+            "fileVersion": "10.0.27106.2602"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2409"
+            "fileVersion": "3.0.0.2502"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
             "assemblyVersion": "1.6.0.0",
@@ -441,11 +555,75 @@
           }
         }
       },
-      "Microsoft.Web.WebView2.Core.Projection/1.0.2792.45": {
+      "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.10",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.10": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.10": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.10": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.10"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.1.10.2445",
+            "fileVersion": "2.1.10.2445"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Text.Json/9.0.4": {},
+      "AppTask.Database/1.0.0": {
+        "dependencies": {
+          "AppTask.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4"
+        },
+        "runtime": {
+          "AppTask.Database.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AppTask.Models/1.0.0": {
+        "runtime": {
+          "AppTask.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core.Projection/1.0.2903.40": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.Projection.dll": {
-            "assemblyVersion": "1.0.2792.45",
-            "fileVersion": "1.0.2792.45"
+            "assemblyVersion": "1.0.2903.40",
+            "fileVersion": "1.0.2903.40"
           }
         }
       }
@@ -462,6 +640,69 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Data.Sqlite.Core/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rnVGier1R0w9YEAzxOlUl8koFwq4QLwuYKiJN6NFqbCNCPrRLGW3f7x0OtL/Sp1KBMVhgffUIP6jWPppzhpa2Q==",
+      "path": "microsoft.data.sqlite.core/9.0.4",
+      "hashPath": "microsoft.data.sqlite.core.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5IAX0aicQYCRfN4pAjad+JPwdEYoVEM3Z1Cl8/EiEv3FVHQHdd8TJQpQIslQDDQS/UsUMb0MsOXwqOh+TJtRw==",
+      "path": "microsoft.entityframeworkcore/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E0pkWzI0liqu2ogqJ1kohk2eGkYRhf5tI75HGF6IQDARsshY/0w+prGyLvNuUeV7B8I7vYQZ4CzAKYKxw7b9gQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cMsm1O7g9X5qbB2wjHf3BVVvGwkG+zeXQ+M91I1Bm6RfylFMImqBPzs0+vmuef7fPxr2yOzPhIfJ2wQJfmtaSw==",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OjJ+xh/wQff5b0wiC3SPvoQqTA2boZeJQf+15+3+OJPtjBKzvxuwr25QRIu1p1t+K8ryQ8pzaoZ7eOpXfNzVGA==",
+      "path": "microsoft.entityframeworkcore.relational/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.relational.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YruNASPuiCjLOVxO09lpQT4e2OYvpsoD0e5NGEQKOcPCu143RDzWTNlpzcxhArBgAS0FPwQ+OEGZOWhwgWHvOA==",
+      "path": "microsoft.entityframeworkcore.sqlite/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-96NFbmjcZsO9HkSdWAwh5tn/7LKIu7cLW+zubyGV1BR1w8xpcqPXZcTW4S/0eA0d9BxyFnH8tSDRjUerWGoU/Q==",
+      "path": "microsoft.entityframeworkcore.sqlite.core/9.0.4",
+      "hashPath": "microsoft.entityframeworkcore.sqlite.core.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-imcZ5BGhBw5mNsWLepBbqqumWaFe0GtvyCvne2/2wsDIBRa2+Lhx4cU/pKt/4BwOizzUEOls2k1eOJQXHGMalg==",
+      "path": "microsoft.extensions.caching.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.caching.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G5rEq1Qez5VJDTEyRsRUnewAspKjaY57VGsdZ8g8Ja6sXXzoiI3PpTd1t43HjHqNWD5A06MQveb2lscn+2CU+w==",
+      "path": "microsoft.extensions.caching.memory/9.0.4",
+      "hashPath": "microsoft.extensions.caching.memory.9.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -469,61 +710,68 @@
       "path": "microsoft.extensions.configuration/9.0.0",
       "hashPath": "microsoft.extensions.configuration.9.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lqvd7W3FGKUO1+ZoUEMaZ5XDJeWvjpy2/M/ptCGz3tXLD4HWVaSzjufsAsjemasBEg+2SxXVtYVvGt5r2nKDlg==",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512"
+      "sha512": "sha512-0LN/DiIKvBrkqp7gkF3qhGIeZk6/B63PthAHjQsxymJfIBcz0kbf4/p/t4lMgggVxZ+flRi5xvTwlpPOoZk8fg==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/9.0.0": {
+    "Microsoft.Extensions.DependencyInjection/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MCPrg7v3QgNMr0vX4vzRXvkNGgLg8vKWX0nKCWUxu2uPyMsaRgiRc1tHBnbTcfJMhMKj2slE/j2M9oGkd25DNw==",
-      "path": "microsoft.extensions.dependencyinjection/9.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512"
+      "sha512": "sha512-f2MTUaS2EQ3lX4325ytPAISZqgBfXmY0WvgD80ji6Z20AoDNiCESxsqo6mFRwHJD/jfVKRw9FsW6+86gNre3ug==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+      "sha512": "sha512-UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging/9.0.0": {
+    "Microsoft.Extensions.DependencyModel/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-crjWyORoug0kK7RSNJBTeSE6VX8IQgLf3nUpTB9m62bPXp/tzbnOsnbe8TXEG0AASNaKZddnpHKw7fET8E++Pg==",
-      "path": "microsoft.extensions.logging/9.0.0",
-      "hashPath": "microsoft.extensions.logging.9.0.0.nupkg.sha512"
+      "sha512": "sha512-ACtnvl3H3M/f8Z42980JxsNu7V9PPbzys4vBs83ZewnsgKd7JeYK18OMPo0g+MxAHrpgMrjmlinXDiaSRPcVnA==",
+      "path": "microsoft.extensions.dependencymodel/9.0.4",
+      "hashPath": "microsoft.extensions.dependencymodel.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/9.0.0": {
+    "Microsoft.Extensions.Logging/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-g0UfujELzlLbHoVG8kPKVBaW470Ewi+jnptGS9KUi6jcb+k2StujtK3m26DFSGGwQ/+bVgZfsWqNzlP6YOejvw==",
-      "path": "microsoft.extensions.logging.abstractions/9.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512"
+      "sha512": "sha512-xW6QPYsqhbuWBO9/1oA43g/XPKbohJx+7G8FLQgQXIriYvY7s+gxr2wjQJfRoPO900dvvv2vVH7wZovG+M1m6w==",
+      "path": "microsoft.extensions.logging/9.0.4",
+      "hashPath": "microsoft.extensions.logging.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Debug/9.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4wGlHsrLhYjLw4sFkfRixu2w4DK7dv60OjbvgbLGhUJk0eUPxYHhnszZ/P18nnAkfrPryvtOJ3ZTVev0kpqM6A==",
-      "path": "microsoft.extensions.logging.debug/9.0.0",
-      "hashPath": "microsoft.extensions.logging.debug.9.0.0.nupkg.sha512"
+      "sha512": "sha512-0MXlimU4Dud6t+iNi5NEz3dO2w1HXdhoOLaYFuLPCjAsvlPQGwOT6V2KZRMLEhCAm/stSZt1AUv0XmDdkjvtbw==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/9.0.0": {
+    "Microsoft.Extensions.Logging.Debug/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y2146b3jrPI3Q0lokKXdKLpmXqakYbDIPDV6r3M8SqvSf45WwOTzkyfDpxnZXJsJQEpAsAqjUq5Pu8RCJMjubg==",
-      "path": "microsoft.extensions.options/9.0.0",
-      "hashPath": "microsoft.extensions.options.9.0.0.nupkg.sha512"
+      "sha512": "sha512-D1jy+jy+huUUxnkZ0H480RZK8vqKn8NsQxYpMpPL/ALPPh1WATVLcr/uXI3RUBB45wMW5265O+hk9x3jnnXFuA==",
+      "path": "microsoft.extensions.logging.debug/9.0.4",
+      "hashPath": "microsoft.extensions.logging.debug.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/9.0.0": {
+    "Microsoft.Extensions.Options/9.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==",
-      "path": "microsoft.extensions.primitives/9.0.0",
-      "hashPath": "microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+      "sha512": "sha512-fiFI2+58kicqVZyt/6obqoFwHiab7LC4FkQ3mmiBJ28Yy4fAvy2+v9MRnSvvlOO8chTOjKsdafFl/K9veCPo5g==",
+      "path": "microsoft.extensions.options/9.0.4",
+      "hashPath": "microsoft.extensions.options.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPFyMjyku1nqTFFJ928JAMd0QnRe4xjE7KeKnZMWXf3xk+6e0WiOZAluYtLdbJUXtsl2cCRSi8cBquJ408k8RA==",
+      "path": "microsoft.extensions.primitives/9.0.4",
+      "hashPath": "microsoft.extensions.primitives.9.0.4.nupkg.sha512"
     },
     "Microsoft.Graphics.Win2D/1.2.0": {
       "type": "package",
@@ -539,75 +787,75 @@
       "path": "microsoft.io.recyclablememorystream/3.0.1",
       "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls/9.0.14": {
+    "Microsoft.Maui.Controls/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zPrAhFdnk5BhW9srz41e5+W9aBXfL3/5Z7Kg4I8NexvK5pjqoI8Ge9iY4XPB6SA9hFS9kg4dfloi/gV9LdEb7w==",
-      "path": "microsoft.maui.controls/9.0.14",
-      "hashPath": "microsoft.maui.controls.9.0.14.nupkg.sha512"
+      "sha512": "sha512-YwakqV502ZeTbVd992gcB2zmAWDF0KDc4py6G5OYRdQjeHO9xhjJZk4UymZQT/yua7If/G5E1RN6CO6NeskyWg==",
+      "path": "microsoft.maui.controls/9.0.60",
+      "hashPath": "microsoft.maui.controls.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Build.Tasks/9.0.14": {
+    "Microsoft.Maui.Controls.Build.Tasks/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ullr7uBqL2Ix6e/EvC8jNLd8xNp0w1Lp2dK14XBg0dXYf84mUwLsahMd5mDPj/CT5nqA0in03YaEiX4KtmVsAw==",
-      "path": "microsoft.maui.controls.build.tasks/9.0.14",
-      "hashPath": "microsoft.maui.controls.build.tasks.9.0.14.nupkg.sha512"
+      "sha512": "sha512-pFydtYK30/PQJNZoONCt5LzyQ/7MlVsDthKpbBukjyGD+tyroRRTzKE14OuSsClfupZR/rvpp/4pjVBzUYR8wg==",
+      "path": "microsoft.maui.controls.build.tasks/9.0.60",
+      "hashPath": "microsoft.maui.controls.build.tasks.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Core/9.0.14": {
+    "Microsoft.Maui.Controls.Core/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7elrbAhr8304iPwKlVXVzUKIRTDJKWEoh4WoMXf/jPFm4tfS6vmc+mlzWgm1pzisKhebb3bX1dxXxeOx2IHGkg==",
-      "path": "microsoft.maui.controls.core/9.0.14",
-      "hashPath": "microsoft.maui.controls.core.9.0.14.nupkg.sha512"
+      "sha512": "sha512-FhcjJaqDoxAIDayFxMkqoUfy3xQq+WOpIsV7JFNbbFpdIEIMeKco6EQKWmssE9b97CjSK7S3C3hvvn9IZuNbjA==",
+      "path": "microsoft.maui.controls.core/9.0.60",
+      "hashPath": "microsoft.maui.controls.core.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Controls.Xaml/9.0.14": {
+    "Microsoft.Maui.Controls.Xaml/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5HzEJT8lLO8wfNCAv8BkDi6UeUCjS5rn2LlWoKZWMTveZMmqwzYXalrPgNP1QR7JpsU4qlx9gKOy61A7tJFHuA==",
-      "path": "microsoft.maui.controls.xaml/9.0.14",
-      "hashPath": "microsoft.maui.controls.xaml.9.0.14.nupkg.sha512"
+      "sha512": "sha512-zaYWVGlrdNEu0htAxe3QvvBPZhajgjSYGANGQ10kO/9vQepuK+7ETMxhUf0QPBNzA5a2lbv/ufqQSF5DtUQSqg==",
+      "path": "microsoft.maui.controls.xaml/9.0.60",
+      "hashPath": "microsoft.maui.controls.xaml.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Core/9.0.14": {
+    "Microsoft.Maui.Core/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nLTTA80+xkfC5YC9sDVUL2dFG1m9hfvVNWCzNsjZf1jJZ2oKJ6oXCBT+TgQuY/pClM4Plq0mjIL7uNWUMF0Kuw==",
-      "path": "microsoft.maui.core/9.0.14",
-      "hashPath": "microsoft.maui.core.9.0.14.nupkg.sha512"
+      "sha512": "sha512-rlTUbR3Q+1m/MKS4C81irL2YlbSmB8k+oQeTtL0KIf9BOQENZDNfCvMb1V3QKHUprObzAFfdRkizHru3M6BufQ==",
+      "path": "microsoft.maui.core/9.0.60",
+      "hashPath": "microsoft.maui.core.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Essentials/9.0.14": {
+    "Microsoft.Maui.Essentials/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-63lagHcmONGoxlhTCasAqhrPWkgiXy5GwnFCFuEb+WdTfslgXMsFPtrwD+FJQ8xKiouetgT5VCIfZs3klXQa+w==",
-      "path": "microsoft.maui.essentials/9.0.14",
-      "hashPath": "microsoft.maui.essentials.9.0.14.nupkg.sha512"
+      "sha512": "sha512-fimjrULltwjTpD17DKDh1FPrW5/yJ3/CTAVdD1tG4usSH50y3PIINlBi+0Bom2nhxsTCRUOYcGTAQgvwIopRfA==",
+      "path": "microsoft.maui.essentials/9.0.60",
+      "hashPath": "microsoft.maui.essentials.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/9.0.14": {
+    "Microsoft.Maui.Graphics/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wCpUcyipEwUnw6kmLBdeO+DJhYQv3gfcLTv1aFcdhkCUx3Pj4eKuLPCUsGVRvt1PFbI6ZeUPBKMNT5wn7kNyGA==",
-      "path": "microsoft.maui.graphics/9.0.14",
-      "hashPath": "microsoft.maui.graphics.9.0.14.nupkg.sha512"
+      "sha512": "sha512-bpiu6Cmd7mMjxe2bkqMQXm1iU/kOLAQ7V6q3LViOy+EJ6iwyls1N/kPR3p5C8+5X9njm403n9mbgJMLENZycNA==",
+      "path": "microsoft.maui.graphics/9.0.60",
+      "hashPath": "microsoft.maui.graphics.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/9.0.14": {
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-b/V+/YFnChN9Rsv9HT9eyLUfwMDbRkESDsL5ktIPfWcvKI7OZLS7tnWGPRwBOV+Vp+xcphZSopY1XdHdVZWF3Q==",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/9.0.14",
-      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.9.0.14.nupkg.sha512"
+      "sha512": "sha512-dNQW1FoBT9YbYFnU67RDSRcJuT80MPwRVFElOfE9zZUKnEkx5+MHuxktEzJ2ttfXHhVEEPj7XO1DOHVFF1gE4Q==",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/9.0.60",
+      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Maui.Resizetizer/9.0.14": {
+    "Microsoft.Maui.Resizetizer/9.0.60": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iaiBB5DGY4wD0Py0lIw3FSFQ5qvXcd3A6x0vbqfNpeEEFUddMjR8Wzs4gsNDSugMobXKra7gYuDgbWGlSDrIPw==",
-      "path": "microsoft.maui.resizetizer/9.0.14",
-      "hashPath": "microsoft.maui.resizetizer.9.0.14.nupkg.sha512"
+      "sha512": "sha512-Y3hGFzas1d9k1PN15ImAVh6HwxBLTvSkjMOu0GnB/lEGxlmHQeFhrgNmCZhJm76jZ6/zuDifbYodyzfTWtZIVA==",
+      "path": "microsoft.maui.resizetizer/9.0.60",
+      "hashPath": "microsoft.maui.resizetizer.9.0.60.nupkg.sha512"
     },
-    "Microsoft.Web.WebView2/1.0.2792.45": {
+    "Microsoft.Web.WebView2/1.0.2903.40": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KOlLJSq70OySfU8mdhWdh9iOyApazWsIb6CmSz+YTJ5MmwLcsCLMW0qemORo7Si3A7VhLDIH3jwpMhPxodfkuA==",
-      "path": "microsoft.web.webview2/1.0.2792.45",
-      "hashPath": "microsoft.web.webview2.1.0.2792.45.nupkg.sha512"
+      "sha512": "sha512-THrzYAnJgE3+cNH+9Epr44XjoZoRELdVpXlWGPs6K9C9G6TqyDfVCeVAR/Er8ljLitIUX5gaSkPsy9wRhD1sgQ==",
+      "path": "microsoft.web.webview2/1.0.2903.40",
+      "hashPath": "microsoft.web.webview2.1.0.2903.40.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
       "type": "package",
@@ -616,14 +864,66 @@
       "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
       "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.6.240923002": {
+    "Microsoft.WindowsAppSDK/1.6.250228001": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7PfOz2scXU+AAM/GYge+f6s7k3DVI+R1P8MNPZQr56GOPCGw+csvcg3S5KZg47z/o04kNvWH3GKtWT1ML9tpZw==",
-      "path": "microsoft.windowsappsdk/1.6.240923002",
-      "hashPath": "microsoft.windowsappsdk.1.6.240923002.nupkg.sha512"
+      "sha512": "sha512-j+uQMOfaAR3oKDBv45lyOETnILX1b07yikPBuDRFH4rIpeGHMychYmdu6WOYDdbd3io9NOOs2tUEsrHqO6CXQQ==",
+      "path": "microsoft.windowsappsdk/1.6.250228001",
+      "hashPath": "microsoft.windowsappsdk.1.6.250228001.nupkg.sha512"
     },
-    "Microsoft.Web.WebView2.Core.Projection/1.0.2792.45": {
+    "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxWuisvZ3uVcVOLJQv7urM/JiQH+v3TmaJc1BLKl5Dxfm/nTzTUrqswCqg/INiYLi61AXnHo1M1JPmPqqLnAdg==",
+      "path": "sqlitepclraw.bundle_e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ii8JCbC7oiVclaE/mbDEK000EFIJ+ShRPwAvvV89GOZhQ+ZLtlnSWl6ksCNMKu/VGXA4Nfi2B7LhN/QFN9oBcw==",
+      "path": "sqlitepclraw.core/2.1.10",
+      "hashPath": "sqlitepclraw.core.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mAr69tDbnf3QJpRy2nJz8Qdpebdil00fvycyByR58Cn9eARvR+UiG2Vzsp+4q1tV3ikwiYIjlXCQFc12GfebbA==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZVTi02C1SxqzgT0HqTWatIbWGb40iIkfc3FpFCpE/r7g6K0PqzDUeefL6P6HPhDtc6BacN3yQysfzP7ks+wSQ==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.10",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Text.Json/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pYtmpcO6R3Ef1XilZEHgXP2xBPVORbYEzRP7dl0IAAbN8Dm+kfwio8aCKle97rAWXOExr292MuxWYurIuwN62g==",
+      "path": "system.text.json/9.0.4",
+      "hashPath": "system.text.json.9.0.4.nupkg.sha512"
+    },
+    "AppTask.Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppTask.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Core.Projection/1.0.2903.40": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

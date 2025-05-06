@@ -9,16 +9,22 @@
             HeightRequest="5"
             VerticalOptions="Start"
             Color="{StaticResource Black}" />
-        <VerticalStackLayout Padding="20">
+        <VerticalStackLayout Padding="20" Spacing="10">
             <Button
                 Clicked="CloseModal"
                 HorizontalOptions="End"
                 MinimumHeightRequest="31"
                 MinimumWidthRequest="31"
                 Text="X" />
-            <Entry Placeholder="Tarefa" />
-            <Editor Placeholder="Descrição" />
-            <DatePicker />
+            <Border StrokeShape="RoundRectangle 10">
+                <Entry Placeholder="Tarefa" />
+            </Border>
+            <Border StrokeShape="RoundRectangle 10">
+                <Editor HeightRequest="150" Placeholder="Descrição" />
+            </Border>
+            <Border StrokeShape="RoundRectangle 10">
+                <DatePicker x:Name="DatePicker_TaskDate" />
+            </Border>
             <StackLayout Orientation="Horizontal">
                 <Label Text="Etapas (SubTarefas)" VerticalOptions="Center" />
                 <Button

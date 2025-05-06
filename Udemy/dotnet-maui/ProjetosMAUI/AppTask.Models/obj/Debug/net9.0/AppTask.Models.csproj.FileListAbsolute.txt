@@ -1,0 +1,12 @@
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\bin\Debug\net9.0\AppTask.Models.deps.json
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\bin\Debug\net9.0\AppTask.Models.dll
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\bin\Debug\net9.0\AppTask.Models.pdb
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.AssemblyInfoInputs.cache
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.AssemblyInfo.cs
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.csproj.CoreCompileInputs.cache
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.sourcelink.json
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.dll
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\refint\AppTask.Models.dll
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\AppTask.Models.pdb
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppTask.Models\obj\Debug\net9.0\ref\AppTask.Models.dll

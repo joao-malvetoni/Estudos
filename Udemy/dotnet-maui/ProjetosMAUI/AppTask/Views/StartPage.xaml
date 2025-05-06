@@ -27,7 +27,31 @@
                     PlaceholderColor="#a8a8a8" />
             </StackLayout>
         </Border>
+
+        <!--  Início segunda linha  -->
+        <CollectionView x:Name="CollectionViewTasks" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10,5" ColumnDefinitions="70, *, 70">
+                        <CheckBox Grid.Column="0" HorizontalOptions="Center" />
+                        <StackLayout Grid.Column="1">
+                            <Label FontAttributes="Bold" Text="{Binding Name}" />
+                            <Label Text="{Binding PrevisionDate}" />
+                        </StackLayout>
+                        <Image
+                            Grid.Column="2"
+                            Source="trash.png"
+                            WidthRequest="25">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer CommandParameter="" Tapped="" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
         <Label
+            x:Name="lblEmptyText"
             Grid.Row="1"
             HorizontalOptions="Center"
             Text="O que você deseja fazer?"
@@ -40,5 +64,6 @@
             HorizontalOptions="Center"
             Text="Adicionar tarefa"
             VerticalOptions="End" />
+        <!--  Fim segunda linha  -->
     </Grid>
 </ContentPage>

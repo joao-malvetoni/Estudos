@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73EA7B61-DD94-4352-AE24-2FA74720D33E}|AppTask.Database\\AppTask.Database.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask.database\\apptaskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA7B61-DD94-4352-AE24-2FA74720D33E}|AppTask.Database\\AppTask.Database.csproj|solutionrelative:apptask.database\\apptaskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask\\repositories\\taskmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|solutionrelative:apptask\\repositories\\taskmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73EA7B61-DD94-4352-AE24-2FA74720D33E}|AppTask.Database\\AppTask.Database.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask.database\\migrations\\20250506143522_taskmodeladdcolumncreatedandupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73EA7B61-DD94-4352-AE24-2FA74720D33E}|AppTask.Database\\AppTask.Database.csproj|solutionrelative:apptask.database\\migrations\\20250506143522_taskmodeladdcolumncreatedandupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7B18A1-8FAE-4C43-938A-831042F9C06A}|AppTask.Models\\AppTask.Models.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask.models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7B18A1-8FAE-4C43-938A-831042F9C06A}|AppTask.Models\\AppTask.Models.csproj|solutionrelative:apptask.models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask\\repositories\\itaskmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|solutionrelative:apptask\\repositories\\itaskmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,80 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250506143522_TaskModelAddColumnCreatedAndUpdated.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143522_TaskModelAddColumnCreatedAndUpdated.cs",
-              "RelativeDocumentMoniker": "AppTask.Database\\Migrations\\20250506143522_TaskModelAddColumnCreatedAndUpdated.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143522_TaskModelAddColumnCreatedAndUpdated.cs",
-              "RelativeToolTip": "AppTask.Database\\Migrations\\20250506143522_TaskModelAddColumnCreatedAndUpdated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TaskModelRepository.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Repositories\\TaskModelRepository.cs",
+              "RelativeDocumentMoniker": "AppTask\\Repositories\\TaskModelRepository.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Repositories\\TaskModelRepository.cs",
+              "RelativeToolTip": "AppTask\\Repositories\\TaskModelRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:35:22.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250506143348_TaskModelAddColumnCreatedAndUpdated.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs",
-              "RelativeDocumentMoniker": "AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs",
-              "RelativeToolTip": "AppTask.Database\\Migrations\\20250506143348_TaskModelAddColumnCreatedAndUpdated.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:33:48.36Z",
+              "WhenOpened": "2025-05-06T16:24:47.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250506143326_DatabaseInitial.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs",
-              "RelativeDocumentMoniker": "AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs",
-              "RelativeToolTip": "AppTask.Database\\Migrations\\20250506143326_DatabaseInitial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ITaskModelRepository.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Repositories\\ITaskModelRepository.cs",
+              "RelativeDocumentMoniker": "AppTask\\Repositories\\ITaskModelRepository.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Repositories\\ITaskModelRepository.cs",
+              "RelativeToolTip": "AppTask\\Repositories\\ITaskModelRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:33:26.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppTaskContext.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTaskContext.cs",
-              "RelativeDocumentMoniker": "AppTask.Database\\AppTaskContext.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\AppTaskContext.cs",
-              "RelativeToolTip": "AppTask.Database\\AppTaskContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:16:24.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskModel.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\TaskModel.cs",
-              "RelativeDocumentMoniker": "AppTask.Models\\TaskModel.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Models\\TaskModel.cs",
-              "RelativeToolTip": "AppTask.Models\\TaskModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAywAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:03:21.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250506142927_DatabaseInitial.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs",
-              "RelativeDocumentMoniker": "AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs",
-              "RelativeToolTip": "AppTask.Database\\Migrations\\20250506142927_DatabaseInitial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:29:27.708Z",
+              "WhenOpened": "2025-05-06T16:23:09.02Z",
               "EditorCaption": ""
             }
           ]

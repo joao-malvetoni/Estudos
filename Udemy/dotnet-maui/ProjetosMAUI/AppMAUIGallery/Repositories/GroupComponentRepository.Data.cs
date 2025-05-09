@@ -5,6 +5,7 @@ using AppMAUIGallery.Views.Components.Main;
 using AppMAUIGallery.Views.Components.Visuals;
 using AppMAUIGallery.Views.Layouts;
 using AppMAUIGallery.Views.Lists;
+using AppMAUIGallery.Views.Styles;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace AppMAUIGallery.Repositories
 			LoadForms();
 			LoadCells();
 			LoadCollections();
+			LoadStyles();
         }
         private void LoadLayouts()
         {
@@ -303,6 +305,36 @@ namespace AppMAUIGallery.Repositories
 				}
 			};
 			var group = new GroupComponent() { Name = "Listas e coleções" };
+
+			group.AddRange(components);
+
+			_components.AddRange(components);
+			_groupComponents.Add(group);
+		}
+		private void LoadStyles()
+		{
+			var components = new List<Component>
+			{
+				new Component
+				{
+					Title = "Implicit & Explicit Styles",
+					Description = "Explicar como funciona os estilos.",
+					Page = typeof(ImplicitExplicitStylesPage)
+				},
+				new Component
+				{
+					Title = "Global Style",
+					Description = "Como criar estilos para todo o seu projeto",
+					Page = typeof(GlobalStylePage)
+				},
+				new Component
+				{
+					Title = "Apply to Derived Types",
+					Description = "aplicar um estilo aos elementos derivados da classe/componente atual.",
+					Page = typeof(ApplyDerivedTypes)
+				}
+			};
+			var group = new GroupComponent() { Name = "Styles" };
 
 			group.AddRange(components);
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Styles.ImplicitExplicitStylesPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ImplicitExplicitStylesPage">
+    <ContentPage.Resources>
+        <!--  Implicit  -->
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Red" />
+        </Style>
+        <!--  End Implicit  -->
+        <!--  Explicit  -->
+        <Style x:Key="StyleTitle" TargetType="Label">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="Margin" Value="0,15,0,10" />
+        </Style>
+        <Style x:Key="StyleParagraph" TargetType="Label">
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="TextColor" Value="Blue" />
+            <Setter Property="Padding" Value="0, 5" />
+        </Style>
+        <!--  End Explicit  -->
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="Publicado em 23/04/2023" />
+            <Label Style="{StaticResource StyleTitle}" Text="Artigo 1" />
+            <Label Style="{StaticResource StyleParagraph}" Text="viermviormeviomeroivmeiormviemvoime  iom oimv eriomv ioerm vioioermv ioermv ierv" />
+            <Label Style="{StaticResource StyleParagraph}" Text="erxerwcerxcerxexeaaaca scwcvrc acaqca csvacascascascasc asc ac  ascascascacascasc" />
+            <Label Style="{StaticResource StyleTitle}" Text="Artigo 2" />
+            <Label Style="{StaticResource StyleParagraph}" Text="m,ioioio,io,io,oi i   oi,oi,oi,io,mkiokio ioj iojio k m miom io ,po,op,opkop" />
+            <Label Style="{StaticResource StyleParagraph}" Text="mcncnmmnxv,mnm,mn\bvmzxbmnvbzxvnbxcm,bmxcbcbnmzbvvbbmn\vbzxbvmzxbvbzxcvbzxbvbz   b" />
+            <Label Style="{StaticResource StyleParagraph}" Text="uiuiywuiyqwtoqiypoquyiowtpyuiqoutoiropuoiwuyioauÚOEUIOUQIOUQIOUKLOIUIOoigiou4iojiuo" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

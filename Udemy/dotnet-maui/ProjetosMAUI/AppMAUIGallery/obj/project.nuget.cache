@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gb8S0E1qBE8=",
+  "dgSpecHash": "W2KsPsZIOmg=",
   "success": true,
-  "projectFilePath": "D:\\Estudos\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\AppMAUIGallery.csproj",
+  "projectFilePath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\AppMAUIGallery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao.malvetoni\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",
     "C:\\Users\\joao.malvetoni\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",

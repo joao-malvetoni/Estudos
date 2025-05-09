@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask\\views\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|solutionrelative:apptask\\views\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\views\\styles\\applyderivedtypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\views\\styles\\applyderivedtypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\apptask\\views\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{745369F8-49C7-450A-AE87-4509835FEADC}|AppTask\\AppTask.csproj|solutionrelative:apptask\\views\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\repositories\\groupcomponentrepository.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\repositories\\groupcomponentrepository.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\views\\styles\\mycontrols\\mylabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\views\\styles\\mycontrols\\mylabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,27 +51,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StartPage.xaml.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Views\\StartPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppTask\\Views\\StartPage.xaml.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Views\\StartPage.xaml.cs",
-              "RelativeToolTip": "AppTask\\Views\\StartPage.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:53:00.066Z",
+              "Title": "ApplyDerivedTypes.xaml",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Styles\\ApplyDerivedTypes.xaml",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\Views\\Styles\\ApplyDerivedTypes.xaml",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Styles\\ApplyDerivedTypes.xaml",
+              "RelativeToolTip": "AppMAUIGallery\\Views\\Styles\\ApplyDerivedTypes.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T13:34:57.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StartPage.xaml",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Views\\StartPage.xaml",
-              "RelativeDocumentMoniker": "AppTask\\Views\\StartPage.xaml",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppTask\\Views\\StartPage.xaml",
-              "RelativeToolTip": "AppTask\\Views\\StartPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-07T13:49:13.386Z"
+              "Title": "GroupComponentRepository.Data.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "RelativeToolTip": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAAAEwBAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:36:31.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyLabel.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Styles\\MyControls\\MyLabel.cs",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\Views\\Styles\\MyControls\\MyLabel.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Styles\\MyControls\\MyLabel.cs",
+              "RelativeToolTip": "AppMAUIGallery\\Views\\Styles\\MyControls\\MyLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:33:55.386Z",
+              "EditorCaption": ""
             }
           ]
         }

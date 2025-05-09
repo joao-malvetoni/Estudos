@@ -1,0 +1,11 @@
+Instrutor - Paulo Moraes
+
+- Porque fazer? Ataques de Pishing crescendo, 
+principalmente a usuários que lidam com informações sensíveis.
+
+- O que vou aprender? Como criar um Pishing, 
+mapa comportamental, elaborar o ataque, entre outros.
+
+- Público alvo? Qualquer pessoa que utilize a engenharia social para ataque e defesa.
+
+- Aonde utilizar? Inúmeras oportunidades.

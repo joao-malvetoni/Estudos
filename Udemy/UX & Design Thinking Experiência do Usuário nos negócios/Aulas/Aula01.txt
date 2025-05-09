@@ -1,0 +1,5 @@
+Quando se trata de desenvolver sites para negócios, OnePage, Blogs, entre outros, 
+fica difícil estabelecer qual é a melhor estrutura e funcionalidade dos sites sem
+ao menos ter um template pronto, um showcase para apresentar. Além disso, ficar sempre
+montando os mesmos modelos de apps, sem entregas rápidas, se torna um desafio ainda maior,
+pois o cliente não tem a segurança que seu produto está sendo desenvolvido.

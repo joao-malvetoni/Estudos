@@ -1,0 +1,12 @@
+UX (User eXperience) não é UI (User Interface).
+
+Ux está relacionada com o momento que o usuário tem o contato com o produto,
+para isso nos colocamos no lugar do usuário é qual é o impacto que isso causou.
+
+Amazon
+- Página 100ms mais lenta -> -1% de vendas a menos.
+- Pessoas comprando sem precisar se cadastrar resultou em um aumento de 
+$300 milhões de dólares.
+
+Pesquisa de tempo de carregamento...: http://www.mcrinc.com/Documents/Newsletters/201110_why_web_performance_matters.pdf
+Pesquisa de taxa de abandono........: https://www.akamai.com/us/en/multimedia/documents/report/akamai-site-abandonment-final-report.pdf

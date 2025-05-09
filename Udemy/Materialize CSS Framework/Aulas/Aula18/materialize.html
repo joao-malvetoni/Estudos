@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Materialize</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="css/materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+          <div class="row">
+            <form action="" class="col s12">
+              <div class="row">
+                  <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input type="text" id="nome" name="nome" class="validate">
+                      <label for="nome">Primeiro nome</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input type="text" id="nome" name="nome" class="validate">
+                    <label for="nome">Sobrenome</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                    <input type="email" id="email" name="email" class="validate">
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <span class="helper-text" data-error="Digite um e-mail válido." data-success="E-mail correto!"></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                    <input type="password" id="password" name="password" class="validate">
+                    <label for="password">Senha</label>
+                </div>
+              </div>
+              <div class="row">
+                    <div class="input-field col s6">
+                        <input type="tel" id="telefone" name="telefone" class="validate">
+                        <label for="telefone">Telefone</label>
+                    </div>
+                    <div class="input-field col s6">
+                    <input type="tel" id="celular" name="celular" class="validate">
+                    <label for="celular">Celular</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select>
+                              <option value="" disabled selected>Choose your option</option>
+                              <option value="1">Option 1</option>
+                              <option value="2">Option 2</option>
+                              <option value="3">Option 3</option>
+                            </select>
+                            <label>Materialize Select</label>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <label>
+                                <input type="checkbox" />
+                                <span>Red</span>
+                            </label>
+                        </p>
+                        <div class="switch">
+                            <label>
+                              Off
+                              <input type="checkbox">
+                              <span class="lever"></span>
+                              On
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="file-field input-field">
+                            <div class="btn">
+                              <span>File</span>
+                              <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                              <input class="file-path validate" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="range-field">
+                        <input type="range" id="test5" min="0" max="100" />
+                    </p>
+                    <p>
+                        <input type="text" class="datepicker">
+                        <input type="text" class="timepicker">
+                    </p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('select').formSelect();
+                $('.datepicker').datepicker();
+                $('.timepicker').timepicker();
+            });
+        </script>
+    </body>
+</html>

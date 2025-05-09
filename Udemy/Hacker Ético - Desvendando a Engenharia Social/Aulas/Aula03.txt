@@ -1,0 +1,80 @@
+=> Engenharia social
+
+O que é?
+- A prática de manipular pessoas para conquistar a confiança, 
+a obtenção de informações ou para executar ações confrme o objetivo de quem usa a prática.
+
+Quem é o atacante?
+- Qualquer pessoa que tenha os conhecimentos das técnicas 
+e o tempo para o planejamento e execuçãodo ataque
+
+Quem são os alvos do ataque?
+- Qualquer pessoa ou empresa, que poderá identificar o ataque caso esteja conscientizado
+ou se tornar vítima, sendo a maioria.
+
+=> Quem utiliza?
+    - Hackers e Pentesters
+    - Ativistas
+    - Espionagem
+    - Corretores
+    - Golpistas (Crackers, Carders, etc)
+    - Recrutadores
+    - Vendedores
+    - Lobistas
+    - Funcionários descontentes
+    - Governos (guerra)
+
+=> Principais formas de ataques
+    - Phishing
+    - Spear Phishing
+    - Whaling
+    - Pretexting / Impersonation
+    - Quid pro Quo
+    - Tailgating
+    - Baiting
+    - Vishing
+    - Smishing
+
+=> Objetivos de um ataque
+    - Coleta de credenciais de acesso (Usuário e Senhas)
+    - Coleta de dados pessoais de usuários (Venda de base de dados)
+    - Acesso a relatórios financeiros (Informações de faturamento)
+    - Acesso a folhas de pagamento (Vazamento e venda de dados)
+    - Captura da lista de clientes (roubo de clientes)
+    - Roubo do planejamento estratégico da empresa (segredos e estratégias)
+    - Execução de programas maliciosos
+    - Acesso não autorizado a sistemas
+    - Testar os processos e controles de segurança
+
+=> Motivadores de ataques
+    - Identificação de fragilidades
+    - Testes de controles de segurança
+    - Diversão
+    - Ego
+    - Vingança
+    - Aprendizado e aperfeiçoamento de técnicas
+    - Ganho de dinheiro
+
+=> FrameWork de ataque - Ver imagem Aula03x8.png
+
+=> Fluxo de ataque
+    - Identificação do alvo
+    - Levantamento de informações do alvo
+    - Identificar vulnerabilidades em processos de negócio e em recursos humanos
+    - Atacar e atingir os objetivos do ataque
+    - Coleta de evidências e encoberta de rastros
+    - Apresentação de relatórios e evidências
+
+=> Chaves de influência - Ver imagem Aula03x10
+
+=> Rapport
+    Um grande arma de persuasão, facilitando a criação de empatia e agilizando 
+a conquista da confiança
+    - Postura síncrona com o alvo
+    - Linguagem síncrona com o alvo
+    - Peça ajuda ao alvo
+    - Elevação do ego do alvo
+    - Use temas que o alvo se identifique
+    - Roupas parecidas com a do alvo
+    - Ofereça atenção total ao alvo
+    - Faça o alvo se sentir melhor com a sua presença

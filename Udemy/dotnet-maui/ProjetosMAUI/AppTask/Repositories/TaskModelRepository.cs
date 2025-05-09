@@ -38,6 +38,11 @@ namespace AppTask.Repositories
 		{
 			// Caso tenha problemas de duplicação de objeto
 			//_db.Tasks.Remove(GetById(task.Id));
+			task = GetById(task.Id);
+			foreach (var subtask in task.SubTasks)
+			{
+				_db.SubTasks.Remove(subtask);
+			}
 			_db.Tasks.Remove(task);
 			_db.SaveChanges();
 		}

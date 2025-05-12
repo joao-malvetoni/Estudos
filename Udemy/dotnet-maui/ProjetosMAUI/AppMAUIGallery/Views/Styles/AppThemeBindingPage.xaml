@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Styles.AppThemeBindingPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AppThemeBindingPage"
+    Background="{AppThemeBinding Light={StaticResource Gray300},
+                                 Dark={StaticResource Gray300},
+                                 Default={StaticResource Gray100}}">
+    <!--  Troque o tema do sistema operacional para testar  -->
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="{AppThemeBinding Light='Olá tema claro',
+                                   Dark='Olá tema escuro',
+                                   Default='Olá tema personalizado'}"
+            VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

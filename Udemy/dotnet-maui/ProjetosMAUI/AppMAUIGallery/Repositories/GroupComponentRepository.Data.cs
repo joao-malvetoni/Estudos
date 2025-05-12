@@ -1,4 +1,5 @@
 ﻿using AppMAUIGallery.Models;
+using AppMAUIGallery.Views.Animations;
 using AppMAUIGallery.Views.Cells;
 using AppMAUIGallery.Views.Components.Forms;
 using AppMAUIGallery.Views.Components.Main;
@@ -28,6 +29,7 @@ namespace AppMAUIGallery.Repositories
 			LoadCells();
 			LoadCollections();
 			LoadStyles();
+			LoadAnimations();
         }
         private void LoadLayouts()
         {
@@ -330,11 +332,65 @@ namespace AppMAUIGallery.Repositories
 				new Component
 				{
 					Title = "Apply to Derived Types",
-					Description = "aplicar um estilo aos elementos derivados da classe/componente atual.",
+					Description = "Aplicar um estilo aos elementos derivados da classe/componente atual.",
 					Page = typeof(ApplyDerivedTypes)
+				},
+				new Component
+				{
+					Title = "Inheritance Style",
+					Description = "Como criar estilos derivados de outros.",
+					Page = typeof(InheritanceStylePage)
+				},
+				new Component
+				{
+					Title = "Style Class",
+					Description = "Cria classes de estilos para serem aplicados aos componentes.",
+					Page = typeof(StyleClassPage)
+				},
+				new Component
+				{
+					Title = "Static Resource / Dynamic Resource",
+					Description = "Define se o estilo pode ser alterado em tempo real.",
+					Page = typeof(StaticDynamicResourcePage)
+				},
+				new Component
+				{
+					Title = "Theme",
+					Description = "Define um tema padrão para o nosso projeto.",
+					Page = typeof(ThemePage)
+				},
+				new Component
+				{
+					Title = "App Theme Binding",
+					Description = "Adapta o tema ao modo claro/escuro do Sistema Operacional.",
+					Page = typeof(AppThemeBindingPage)
+				},
+				new Component
+				{
+					Title = "Visual State Manager (VSM)",
+					Description = "Personalizar a apresentação de acordo com o estado do componente.",
+					Page = typeof(VisualStateManagerPage)
 				}
 			};
 			var group = new GroupComponent() { Name = "Styles" };
+
+			group.AddRange(components);
+
+			_components.AddRange(components);
+			_groupComponents.Add(group);
+		}
+		private void LoadAnimations()
+		{
+			var components = new List<Component>
+			{
+				new Component
+				{
+					Title = "Basic Animation",
+					Description = "Animação básica do .NET MAUI.",
+					Page = typeof(BasicAnimationPage)
+				},
+			};
+			var group = new GroupComponent() { Name = "Animations" };
 
 			group.AddRange(components);
 

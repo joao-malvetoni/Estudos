@@ -36,11 +36,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Resources/Styles/DarkTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.Styles.DarkTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\DarkTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\DarkTheme.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Resources/Styles/LightTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.Styles.LightTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\LightTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\LightTheme.xaml
+
 [D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Animations/BasicAnimationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Animations.BasicAnimationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Animations\BasicAnimationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Animations\BasicAnimationPage.xaml
 
 [D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Cells/EntryCellPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -270,6 +288,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Style
 build_metadata.AdditionalFiles.TargetPath = Views\Styles\ApplyDerivedTypes.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Styles\ApplyDerivedTypes.xaml
 
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/AppThemeBindingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.AppThemeBindingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\AppThemeBindingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\AppThemeBindingPage.xaml
+
 [D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/GlobalStylePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.GlobalStylePage.xaml
@@ -281,3 +305,33 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.ImplicitExplicitStylesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Styles\ImplicitExplicitStylesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Styles\ImplicitExplicitStylesPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/InheritanceStylePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.InheritanceStylePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\InheritanceStylePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\InheritanceStylePage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/StaticDynamicResourcePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.StaticDynamicResourcePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\StaticDynamicResourcePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\StaticDynamicResourcePage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/StyleClassPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.StyleClassPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\StyleClassPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\StyleClassPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/ThemePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.ThemePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\ThemePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\ThemePage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Styles/VisualStateManagerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.VisualStateManagerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Styles\VisualStateManagerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Styles\VisualStateManagerPage.xaml

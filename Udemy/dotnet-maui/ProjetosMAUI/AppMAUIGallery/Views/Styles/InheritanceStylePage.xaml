@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Styles.InheritanceStylePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="InheritanceStylePage">
+    <ContentPage.Resources>
+        <Style x:Key="Paragraph" TargetType="Label">
+            <Setter Property="Padding" Value="20,10" />
+            <Setter Property="FontSize" Value="12" />
+        </Style>
+        <Style
+            x:Key="Paragraph2"
+            BasedOn="{StaticResource Paragraph}"
+            TargetType="Label">
+            <Setter Property="TextColor" Value="Blue" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+    </ContentPage.Resources>
+    <VerticalStackLayout>
+        <Label Style="{StaticResource Paragraph}" Text="Artigo 1" />
+        <Label Style="{StaticResource Paragraph}" Text="viermviormeviomeroivmeiormviemvoime  iom oimv eriomv ioerm vioioermv ioermv ierv" />
+        <Label Style="{StaticResource Paragraph2}" Text="viermviormeviomeroivmeiormviemvoime  iom oimv eriomv ioerm vioioermv ioermv ierv" />
+    </VerticalStackLayout>
+</ContentPage>

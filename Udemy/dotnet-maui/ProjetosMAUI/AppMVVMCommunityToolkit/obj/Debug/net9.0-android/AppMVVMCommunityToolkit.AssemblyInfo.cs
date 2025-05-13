@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppMVVMCommunityToolkit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+36f39bd9f81d51dd28c9461c611c2f2a3cdbcf58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d4d393ba73f26362157a18baf5e1b4ed7e28bb96")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppMVVMCommunityToolkit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppMVVMCommunityToolkit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

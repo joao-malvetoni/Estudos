@@ -1,4 +1,9 @@
-﻿using AppMVVMCommunityToolkit.Models;
+﻿using AppMVVMCommunityToolkit.Libraries.Messages;
+using AppMVVMCommunityToolkit.Models;
+using AppMVVMCommunityToolkit.Views;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,15 +14,42 @@ using System.Windows.Input;
 
 namespace AppMVVMCommunityToolkit.ViewModels
 {
-	public class StartPageViewModel
+	public partial class StartPageViewModel : ObservableObject
 	{
-		public ICommand SaveCommand { get; set; }
-		public Person Person { get; set; }
+		[ObservableProperty]
+		private string message;
+		[ObservableProperty]
+		private Person person;
 		public ObservableCollection<Person> People { get; set; }
 		public StartPageViewModel()
 		{
 			Person = new Person();
 			People = new ObservableCollection<Person>();
+
+			// Subscribe
+			WeakReferenceMessenger.Default.Register<TextMessage>(this, (obj, msg) =>
+			{
+				Message = msg.Value;
+			});
+
+			WeakReferenceMessenger.Default.Register<PersonMessage>(this, (obj, msg) =>
+			{
+				People.Add(msg.Value);
+			});
+		}
+
+		[RelayCommand]
+		private void Save()
+		{
+			People.Add(person);
+			Person = new Person();
+		}
+
+		[RelayCommand]
+		private void GotTosubPubPage()
+		{
+			NavigationPage navPage = (NavigationPage)App.Current.Windows[0].Page;
+			navPage.PushAsync(new PubSubPage());
 		}
 	}
 }

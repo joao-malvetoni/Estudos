@@ -339,3 +339,33 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Styles.VisualStateManagerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Styles\VisualStateManagerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Styles\VisualStateManagerPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Utils/BehaviorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Utils.BehaviorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Utils\BehaviorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Utils\BehaviorPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Utils/ColorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Utils.ColorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Utils\ColorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Utils\ColorPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Utils/FontPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Utils.FontPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Utils\FontPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Utils\FontPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Utils/PlatformIdiomPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Utils.PlatformIdiomPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Utils\PlatformIdiomPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Utils\PlatformIdiomPage.xaml
+
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Utils/TriggerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Utils.TriggerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Utils\TriggerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Utils\TriggerPage.xaml

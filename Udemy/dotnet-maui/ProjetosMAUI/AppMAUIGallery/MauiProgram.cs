@@ -10,10 +10,13 @@ namespace AppMAUIGallery
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
-                {
+				{
+					fonts.AddFont("Icons.ttf", "Icons");
+					fonts.AddFont("Foldit-Bold.ttf", "FolditBold");
+					fonts.AddFont("Foldit-Medium.ttf", "FolditMedium");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+				});
 
 #if DEBUG
     		builder.Logging.AddDebug();

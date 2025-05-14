@@ -41,7 +41,7 @@ namespace AppMVVMCommunityToolkit.ViewModels
 		[RelayCommand]
 		private void Save()
 		{
-			People.Add(person);
+			People.Add(Person);
 			Person = new Person();
 		}
 

@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmvvmcommunitytoolkit\\viewmodels\\startpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|solutionrelative:appmvvmcommunitytoolkit\\viewmodels\\startpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\views\\utils\\colorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\views\\utils\\colorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmvvmcommunitytoolkit\\viewmodels\\pubsubpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|solutionrelative:appmvvmcommunitytoolkit\\viewmodels\\pubsubpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmvvmcommunitytoolkit\\views\\pubsubpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AB83B1C-7C59-4363-9182-BAB65A3276D2}|AppMVVMCommunityToolkit\\AppMVVMCommunityToolkit.csproj|solutionrelative:appmvvmcommunitytoolkit\\views\\pubsubpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\repositories\\groupcomponentrepository.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\repositories\\groupcomponentrepository.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,40 +47,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StartPageViewModel.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\ViewModels\\StartPageViewModel.cs",
-              "RelativeDocumentMoniker": "AppMVVMCommunityToolkit\\ViewModels\\StartPageViewModel.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\ViewModels\\StartPageViewModel.cs",
-              "RelativeToolTip": "AppMVVMCommunityToolkit\\ViewModels\\StartPageViewModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwCQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:39:41.439Z",
+              "Title": "ColorPage.xaml",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
+              "RelativeToolTip": "AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwCsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T16:03:20.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PubSubPageViewModel.cs",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\ViewModels\\PubSubPageViewModel.cs",
-              "RelativeDocumentMoniker": "AppMVVMCommunityToolkit\\ViewModels\\PubSubPageViewModel.cs",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\ViewModels\\PubSubPageViewModel.cs",
-              "RelativeToolTip": "AppMVVMCommunityToolkit\\ViewModels\\PubSubPageViewModel.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Title": "GroupComponentRepository.Data.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "RelativeToolTip": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAqwLABAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T16:37:40.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PubSubPage.xaml",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\Views\\PubSubPage.xaml",
-              "RelativeDocumentMoniker": "AppMVVMCommunityToolkit\\Views\\PubSubPage.xaml",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMVVMCommunityToolkit\\Views\\PubSubPage.xaml",
-              "RelativeToolTip": "AppMVVMCommunityToolkit\\Views\\PubSubPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T16:37:04.718Z",
+              "WhenOpened": "2025-05-14T13:56:27.766Z",
               "EditorCaption": ""
             }
           ]

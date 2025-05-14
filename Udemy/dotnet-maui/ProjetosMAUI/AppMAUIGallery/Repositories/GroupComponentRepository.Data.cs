@@ -7,6 +7,7 @@ using AppMAUIGallery.Views.Components.Visuals;
 using AppMAUIGallery.Views.Layouts;
 using AppMAUIGallery.Views.Lists;
 using AppMAUIGallery.Views.Styles;
+using AppMAUIGallery.Views.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,7 @@ namespace AppMAUIGallery.Repositories
 			LoadCollections();
 			LoadStyles();
 			LoadAnimations();
+			LoadUtils();
         }
         private void LoadLayouts()
         {
@@ -391,6 +393,48 @@ namespace AppMAUIGallery.Repositories
 				},
 			};
 			var group = new GroupComponent() { Name = "Animations" };
+
+			group.AddRange(components);
+
+			_components.AddRange(components);
+			_groupComponents.Add(group);
+		}
+		private void LoadUtils()
+		{
+			var components = new List<Component>
+			{
+				new Component
+				{
+					Title = "Behavior",
+					Description = "Lógica que pode ser associada a um componente da tela.",
+					Page = typeof(BehaviorPage)
+				},
+				new Component
+				{
+					Title = "Trigger",
+					Description = "Gatilho que dispara uma alteração visual no componente.",
+					Page = typeof(TriggerPage)
+				},
+				new Component
+				{
+					Title = "OnPlatform/OnIdiom",
+					Description = "Define valores diferentes entre o S.O e também pelo tipo do dispositivo.",
+					Page = typeof(PlatformIdiomPage)
+				},
+				new Component
+				{
+					Title = "Fontes",
+					Description = "Como usar fontes diferentes no nosso aplicativo.",
+					Page = typeof(FontPage)
+				},
+				new Component
+				{
+					Title = "Color/Brush",
+					Description = "Como colocar as cores nos seus componentes.",
+					Page = typeof(ColorPage)
+				}
+			};
+			var group = new GroupComponent() { Name = "Utils" };
 
 			group.AddRange(components);
 

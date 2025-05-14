@@ -1,5 +1,3 @@
-using Android.Media;
-
 namespace AppMAUIGallery.Views.Styles;
 
 public partial class StaticDynamicResourcePage : ContentPage

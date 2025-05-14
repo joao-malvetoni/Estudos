@@ -56,7 +56,7 @@ public partial class BasicAnimationPage : ContentPage
 		await Image.TranslateTo(0, 0, 250);
 	}
 
-	private async Task Paralelo(object sender, EventArgs e)
+	private async void Paralelo(object sender, EventArgs e)
 	{
 		await Task.WhenAll(
 			Image.TranslateTo(100, 0, 1000),

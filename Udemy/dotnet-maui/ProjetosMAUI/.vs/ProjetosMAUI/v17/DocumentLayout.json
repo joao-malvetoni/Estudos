@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
               "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
               "RelativeToolTip": "AppMAUIGallery\\Views\\Utils\\ColorPage.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwCsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-14T16:03:20.008Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
               "ViewState": "AgIAAKIBAAAAAAAAAAAqwLABAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:56:27.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T13:56:27.766Z"
             }
           ]
         }

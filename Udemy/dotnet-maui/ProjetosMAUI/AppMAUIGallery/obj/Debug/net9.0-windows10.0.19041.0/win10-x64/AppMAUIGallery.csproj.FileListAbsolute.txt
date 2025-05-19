@@ -584,7 +584,6 @@ D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-window
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\FluentUI.cs
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
-D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\runtimes\win-x64\native\WebView2Loader.dll
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
@@ -982,3 +981,6 @@ D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-window
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+D:\Estudos\Udemy\dotnet-maui\ProjetosMAUI\AppMAUIGallery\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Speech.dll

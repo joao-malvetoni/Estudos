@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CommunityToolkit.Maui;
+using Microsoft.Extensions.Logging;
 
 namespace AppMAUIGallery
 {
@@ -10,13 +11,17 @@ namespace AppMAUIGallery
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
-				{
-					fonts.AddFont("Icons.ttf", "Icons");
-					fonts.AddFont("Foldit-Bold.ttf", "FolditBold");
-					fonts.AddFont("Foldit-Medium.ttf", "FolditMedium");
+                {
+                    fonts.AddFont("Icons.ttf", "Icons");
+                    fonts.AddFont("Foldit-Bold.ttf", "FolditBold");
+                    fonts.AddFont("Foldit-Medium.ttf", "FolditMedium");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-				});
+                })
+                .UseMauiCommunityToolkit(options =>
+                {
+                    options.SetShouldEnableSnackbarOnWindows(true);
+                });
 
 #if DEBUG
     		builder.Logging.AddDebug();

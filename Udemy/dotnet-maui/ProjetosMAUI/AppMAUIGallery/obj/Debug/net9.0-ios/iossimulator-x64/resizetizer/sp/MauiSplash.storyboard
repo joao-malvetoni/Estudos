@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash_444405CF39F05BDB2D0ACA978BFAFB6E458426A9B9FBF1AE9330F08C6D669DC9.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash_182230A6DD5FF5F95C9BBBD5B5928FEE02FE968C845F476F0F5F838C10224F68.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash_444405CF39F05BDB2D0ACA978BFAFB6E458426A9B9FBF1AE9330F08C6D669DC9.png" />
+        <image name="splash_182230A6DD5FF5F95C9BBBD5B5928FEE02FE968C845F476F0F5F838C10224F68.png" />
     </resources>
 </document>

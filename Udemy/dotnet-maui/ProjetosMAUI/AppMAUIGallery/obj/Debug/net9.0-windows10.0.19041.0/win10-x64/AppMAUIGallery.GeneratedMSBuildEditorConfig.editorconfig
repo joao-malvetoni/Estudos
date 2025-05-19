@@ -94,6 +94,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Cells
 build_metadata.AdditionalFiles.TargetPath = Views\Cells\ViewCellPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cells\ViewCellPage.xaml
 
+[D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/CommunityMaui/AlertsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.CommunityMaui.AlertsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CommunityMaui\AlertsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CommunityMaui\AlertsPage.xaml
+
 [D:/Estudos/Udemy/dotnet-maui/ProjetosMAUI/AppMAUIGallery/Views/Components/Forms/CheckBoxPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMAUIGallery.Views.Components.Forms.CheckBoxPage.xaml

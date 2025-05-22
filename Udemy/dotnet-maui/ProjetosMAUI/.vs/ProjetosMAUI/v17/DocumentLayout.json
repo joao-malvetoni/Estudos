@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code",
-      "RelativeMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|solutionrelative:appmauigallery\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B95FE5F7-DAA4-4C76-A0B0-E6E930880127}|AppMAUIGallery\\AppMAUIGallery.csproj|d:\\estudos\\udemy\\dotnet-maui\\projetosmaui\\appmauigallery\\views\\communitymaui\\alertspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "AppMAUIGallery\\Platforms\\Windows\\Package.appxmanifest",
-              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Platforms\\Windows\\Package.appxmanifest",
-              "RelativeToolTip": "AppMAUIGallery\\Platforms\\Windows\\Package.appxmanifest",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2025-05-16T12:21:34.18Z",
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "AppMAUIGallery\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:22:38.867Z",
               "EditorCaption": ""
             },
             {
@@ -77,9 +77,10 @@
               "RelativeDocumentMoniker": "AppMAUIGallery\\MauiProgram.cs",
               "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\MauiProgram.cs",
               "RelativeToolTip": "AppMAUIGallery\\MauiProgram.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:16:11.639Z"
+              "WhenOpened": "2025-05-16T12:16:11.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -89,9 +90,10 @@
               "RelativeDocumentMoniker": "AppMAUIGallery\\Views\\CommunityMaui\\AlertsPage.xaml.cs",
               "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Views\\CommunityMaui\\AlertsPage.xaml.cs",
               "RelativeToolTip": "AppMAUIGallery\\Views\\CommunityMaui\\AlertsPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:09:45.125Z"
+              "WhenOpened": "2025-05-16T12:09:45.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +105,8 @@
               "RelativeToolTip": "AppMAUIGallery\\Views\\CommunityMaui\\AlertsPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T12:06:57.069Z"
+              "WhenOpened": "2025-05-16T12:06:57.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,9 +116,10 @@
               "RelativeDocumentMoniker": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
               "ToolTip": "D:\\Estudos\\Udemy\\dotnet-maui\\ProjetosMAUI\\AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
               "RelativeToolTip": "AppMAUIGallery\\Repositories\\GroupComponentRepository.Data.cs",
-              "ViewState": "AgIAAD8BAAAAAAAAAAAiwMMBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAD8BAAAAAAAAAAA4wMMBAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:56:27.766Z"
+              "WhenOpened": "2025-05-14T13:56:27.766Z",
+              "EditorCaption": ""
             }
           ]
         }
